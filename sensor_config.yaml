@@ -1,1 +1,7 @@
-
+sensor:
+  device_id: "sensor_01"
+  publish_rate: 1.0
+  voltage_thresholds:
+    normal: 4.8
+    mild: 4.5
+    severe: 4.5
