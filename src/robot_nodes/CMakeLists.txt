@@ -28,7 +28,7 @@ ament_target_dependencies(service_server rclcpp robot_interfaces robot_nodes)
 add_executable(async_service_client src/async_service_client_node.cpp)
 ament_target_dependencies(async_service_client rclcpp robot_interfaces robot_nodes)
 
-install(TARGETS sensor_publisher sensor_subscriber tf2_broadcaster tf2_listener service_server
+install(TARGETS sensor_publisher sensor_subscriber tf2_broadcaster tf2_listener service_server async_service_client
   DESTINATION lib/${PROJECT_NAME})
 
 ament_package()
