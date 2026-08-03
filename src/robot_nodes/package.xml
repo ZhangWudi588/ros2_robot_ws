@@ -1,1 +1,12 @@
+<package format="3">
+  <name>robot_nodes</name>
+  <version>0.0.1</version>
+  <description>ROS2机器人功能节点集合</description>
+  <maintainer email="student@robot.com">student</maintainer>
+  <license>Apache-2.0</license>
 
+  <depend>rclcpp</depend>
+  <depend>tf2_ros</depend>
+  <depend>geometry_msgs</depend>
+  <depend>robot_interfaces</depend>
+</package>
