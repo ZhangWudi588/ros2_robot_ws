@@ -25,6 +25,9 @@ ament_target_dependencies(tf2_listener rclcpp tf2_ros geometry_msgs robot_nodes)
 add_executable(service_server src/service_server_node.cpp)
 ament_target_dependencies(service_server rclcpp robot_interfaces robot_nodes)
 
+add_executable(async_service_client src/async_service_client_node.cpp)
+ament_target_dependencies(async_service_client rclcpp robot_interfaces robot_nodes)
+
 install(TARGETS sensor_publisher sensor_subscriber tf2_broadcaster tf2_listener service_server
   DESTINATION lib/${PROJECT_NAME})
 
