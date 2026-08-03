@@ -6,7 +6,7 @@
   技术栈
  操作系统: Ubuntu 22.04 (WSL2/Linux)
  ROS2版本: Humble Hawksbill
- 编程语*: C++17
+ 编程语言: C++17
  编译调试: gcc, make, gdb, colcon
  版本控制: Git, GitHub
  通信协议: DDS, HTTP, WebSocket
